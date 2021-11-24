@@ -16,8 +16,8 @@ public class GrabController : MonoBehaviour
 
         if (grabCheck.collider != null && grabCheck.collider.tag == "Key")
         {
-            //press Z to grab Key
-            if (Input.GetKeyDown(KeyCode.Z))
+            //press E to grab Key
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 grabCheck.collider.gameObject.transform.parent = boxHolder;
                 grabCheck.collider.gameObject.transform.position = boxHolder.position;
