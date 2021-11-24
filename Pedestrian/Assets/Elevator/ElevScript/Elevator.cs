@@ -20,15 +20,15 @@ public class Elevator : MonoBehaviour
 
     void ControlElevator()
     {
-        if(Vector2.Distance(player.position, transform.position)<1.2f)
+        if(Vector2.Distance(player.position, transform.position)<1f)
         {
             if (Input.GetKey(KeyCode.W) && !uplimit)
             {
-                transform.position = Vector2.MoveTowards(transform.position, upperpos.position, speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, upperpos.position, speed * Time.deltaTime * 2f);
             }
             if (Input.GetKey(KeyCode.S) && !downlimit)
             {
-                transform.position = Vector2.MoveTowards(transform.position, downpos.position, speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, downpos.position, speed * Time.deltaTime * 2f);
             }
 
             if(transform.position.y >= upperpos.position.y)
@@ -45,7 +45,12 @@ public class Elevator : MonoBehaviour
                 downlimit = false;
             }
         }
-
+        else
+        {
+            transform.position = Vector2.MoveTowards(transform.position, downpos.position, speed * Time.deltaTime);
+        }
         
-    }
+
+
+        }
 }
