@@ -231,3 +231,4 @@ Received Import Request.
   path: Assets/Scenes/Assets/pedestrian_walk.png
   artifactKey: Guid(0c826e66e2ce73b4fa36d0c6bbdfb834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Assets/pedestrian_walk.png using Guid(0c826e66e2ce73b4fa36d0c6bbdfb834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5aa64c2e1edfca9ffe3163d4bc6604') in 0.122865 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
