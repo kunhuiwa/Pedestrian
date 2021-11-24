@@ -3783,3 +3783,129 @@ Received Import Request.
   path: Assets/Scenes/ladder long.png
   artifactKey: Guid(73ba439a75a9be944a2419379f1cb74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/ladder long.png using Guid(73ba439a75a9be944a2419379f1cb74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622dc9176c42eaebf044a4382f46f2dd') in 0.066666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 851.185855 seconds.
+  path: Assets/SnapPicture/Snap.unity
+  artifactKey: Guid(3f73cd6461c3b104a91e8a62f492dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnapPicture/Snap.unity using Guid(3f73cd6461c3b104a91e8a62f492dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0962b59bd3af00b01ef2b6ca2743b706') in 0.013773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082121 seconds.
+  path: Assets/Move (Darcy/Move.unity
+  artifactKey: Guid(749e87c9fabb74c9cb0a276232b2af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Move (Darcy/Move.unity using Guid(749e87c9fabb74c9cb0a276232b2af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb1843969293ed4d36a5e07ca70dd50') in 0.007481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004183 seconds.
+  path: Assets/Elevator
+  artifactKey: Guid(693aa7ea1c3c8c44d905f8f31b9fadfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator using Guid(693aa7ea1c3c8c44d905f8f31b9fadfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a683b7dafaea80e7077402fde4b81d') in 0.007517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018418 seconds.
+  path: Assets/Elevator/ElevScript/Elevator.cs
+  artifactKey: Guid(857196563648b954cbf41365a2f5d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/ElevScript/Elevator.cs using Guid(857196563648b954cbf41365a2f5d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19b55207e89c6f3bd60f463fcc43dbd') in 0.003520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007112 seconds.
+  path: Assets/Elevator/ElevScript/ButtonPress.cs
+  artifactKey: Guid(c75eef105ea773743a8b17e4e2897aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elevator/ElevScript/ButtonPress.cs using Guid(c75eef105ea773743a8b17e4e2897aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84af0ae8c0869feaa48b090a76193c62') in 0.006635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070839 seconds.
+  path: Assets/Move (Darcy/MoveScript/Laddered.cs
+  artifactKey: Guid(1c57e2ecc90824dbc867241aea7b5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Move (Darcy/MoveScript/Laddered.cs using Guid(1c57e2ecc90824dbc867241aea7b5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2415f8b91742a7fccc16fd6975a4aaa6') in 0.013988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034818 seconds.
+  path: Assets/SnapPicture/SnapScript/DragDrop.cs
+  artifactKey: Guid(b2db4999f696eb34e9700ffd219a6d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnapPicture/SnapScript/DragDrop.cs using Guid(b2db4999f696eb34e9700ffd219a6d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2394bd9419762ba678054cd7d1668e') in 0.008314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006613 seconds.
+  path: Assets/SnapPicture
+  artifactKey: Guid(1f61c8b629ebea041b2c8bab58ec2f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnapPicture using Guid(1f61c8b629ebea041b2c8bab58ec2f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68485608175737143f4aa2b7f5668783') in 0.006322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058710 seconds.
+  path: Assets/Move (Darcy
+  artifactKey: Guid(4a994c9ee16324a8db231d39460b4217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Move (Darcy using Guid(4a994c9ee16324a8db231d39460b4217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add4375bc6623c39789c71a18ba601a7') in 0.008452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039398 seconds.
+  path: Assets/Scenes/Assets/pedestrian_jump.png
+  artifactKey: Guid(de5e0c7fd7a4cc94baf9daed2c9258ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/pedestrian_jump.png using Guid(de5e0c7fd7a4cc94baf9daed2c9258ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c55e8d21234b18ff00eac893cb57f0') in 0.889888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005692 seconds.
+  path: Assets/SnapPicture/SnapScript
+  artifactKey: Guid(690b01367a1405644846ab507074770a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnapPicture/SnapScript using Guid(690b01367a1405644846ab507074770a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12396f241978dd35e9afbb43a83e5ef8') in 0.005996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029823 seconds.
+  path: Assets/Scenes/Assets/pedestrian_walk.png
+  artifactKey: Guid(0c826e66e2ce73b4fa36d0c6bbdfb834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/pedestrian_walk.png using Guid(0c826e66e2ce73b4fa36d0c6bbdfb834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e2d9ada01b8132d012a5301cf9010a') in 0.048519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005947 seconds.
+  path: Assets/Scenes/Assets
+  artifactKey: Guid(fac3a32ba9374aa438c1656ae2b4a541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets using Guid(fac3a32ba9374aa438c1656ae2b4a541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4f7ff5de3c905055f6fc3b8e1a9b07') in 0.006765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006905 seconds.
+  path: Assets/SnapPicture/SnapScript/SnapController.cs
+  artifactKey: Guid(6c6d97c7973c2ed4bbda89ce084f90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnapPicture/SnapScript/SnapController.cs using Guid(6c6d97c7973c2ed4bbda89ce084f90c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecd729981a727637d54739ccd3212f0') in 0.006225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.695471 seconds.
+  path: Assets/GrabKey and OneWayPlatform
+  artifactKey: Guid(50f2104ead7407346a9fda6a6bed2051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrabKey and OneWayPlatform using Guid(50f2104ead7407346a9fda6a6bed2051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848d24338a7c737071b407b14445b6b4') in 0.006482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046597 seconds.
+  path: Assets/GrabKey and OneWayPlatform/GrabScripts/PlayerMovement.cs
+  artifactKey: Guid(27a5479d3e6b7fb45a21d07513f94da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrabKey and OneWayPlatform/GrabScripts/PlayerMovement.cs using Guid(27a5479d3e6b7fb45a21d07513f94da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3b1a122cdb842d114b2ae5c84ded0d') in 0.007376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008396 seconds.
+  path: Assets/SnapPicture/SnapScript/CheckRightFrame.cs
+  artifactKey: Guid(d999da6755e23074198677a81d1387cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SnapPicture/SnapScript/CheckRightFrame.cs using Guid(d999da6755e23074198677a81d1387cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a242b2fd1bad1459ff291240ae598d') in 0.005821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017367 seconds.
+  path: Assets/Scenes/Assets/pedestrian_clim.png
+  artifactKey: Guid(613be43ee70f39e4faac58d82343bd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/pedestrian_clim.png using Guid(613be43ee70f39e4faac58d82343bd78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9453d27e0e6a2c16f80cf5ca0e7f5e2f') in 0.057510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094210 seconds.
+  path: Assets/Scenes/Ladder.cs
+  artifactKey: Guid(ddc99619188ec13499b20d2aaa6af4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ladder.cs using Guid(ddc99619188ec13499b20d2aaa6af4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3a684f97fa8ec6d4d3616c35469339') in 0.006194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063834 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d75054ee616eac1ca381061c9f994ea') in 0.003421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074380 seconds.
+  path: Assets/Scenes/Assets/pedestrian_idle.png
+  artifactKey: Guid(459b912a7edd26b4e8285d9f76e72861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assets/pedestrian_idle.png using Guid(459b912a7edd26b4e8285d9f76e72861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a8a6ff33ce6f8bd83a38ab87fa6741') in 0.062976 seconds 
