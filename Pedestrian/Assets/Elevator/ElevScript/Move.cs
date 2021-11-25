@@ -13,12 +13,12 @@ public class Move : MonoBehaviour
 
     //visuals
     //public AudioSource footstep;
-    //private Animator playerAnimation;
+    private Animator playerAnimation;
     //flip
     private bool faceRight = true;
 
     //respawn
-    //private Vector3 respawnPoint;
+    //public Vector3 respawnPoint;
     //death bar
     //public GameObject DeathDetector;
 
@@ -27,12 +27,12 @@ public class Move : MonoBehaviour
         rb = transform.GetComponent<Rigidbody2D>();
         bc = transform.GetComponent<BoxCollider2D>();
     }
-    /*
+    
     private void Start()
     {
         playerAnimation = GetComponent<Animator>();
-        respawnPoint = transform.position;
-    }*/
+        //respawnPoint = transform.position;
+    }
 
     void Update()
     {
@@ -72,7 +72,7 @@ public class Move : MonoBehaviour
         }
 
 
-        /*
+        
         //Animation
         //move
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
@@ -95,7 +95,7 @@ public class Move : MonoBehaviour
         {
             //stand
             playerAnimation.SetBool("onGround", true);
-        }*/
+        }
 
 
         //move death bar with player
