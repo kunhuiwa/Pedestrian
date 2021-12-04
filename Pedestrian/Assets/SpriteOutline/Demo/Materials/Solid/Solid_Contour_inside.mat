@@ -86,16 +86,16 @@ Material:
     - _SpecularHighlights: 1
     - _SpriteOverlay: 0
     - _SrcBlend: 1
-    - _Thickness: 50
+    - _Thickness: 33.22
     - _TileMode: 0
     - _UVSec: 0
-    - _Weight: 0.5
+    - _Weight: 0.569
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.28886467, g: 1, b: 0.2688679, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GradientOutline1: {r: 0, g: 0.04827571, b: 1, a: 1}
     - _GradientOutline2: {r: 1, g: 1, b: 1, a: 1}
     - _ImageOutline: {r: 1, g: 1, b: 1, a: 1}
-    - _SolidOutline: {r: 1, g: 1, b: 1, a: 1}
+    - _SolidOutline: {r: 0.46779218, g: 1, b: 0.015686274, a: 1}
   m_BuildTextureStacks: []

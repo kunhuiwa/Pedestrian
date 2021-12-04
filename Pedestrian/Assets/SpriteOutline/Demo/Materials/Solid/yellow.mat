@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Image_contour_outside
+  m_Name: yellow
   m_Shader: {fileID: 4800000, guid: 62505ee61d20098489c6f861ed25cce1, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _FRAMEMODE_GENERAL _OUTLINEENABLED_ON _OUTLINEMODE_SOLID
     _OUTLINEPOSITION_INSIDE_UNDER_SPRITE _OUTLINESHAPE_CONTOUR _TILEMODE_STRETCH
@@ -37,7 +37,7 @@ Material:
     - _OutlineMode: 0
     - _OutlinePosition: 0
     - _OutlineShape: 0
-    - _Thickness: 44.72
+    - _Thickness: 7.02
     - _TileMode: 0
     - _Weight: 0.5
     m_Colors:
@@ -45,5 +45,5 @@ Material:
     - _GradientOutline1: {r: 1, g: 1, b: 1, a: 1}
     - _GradientOutline2: {r: 1, g: 1, b: 1, a: 1}
     - _ImageOutline: {r: 1, g: 1, b: 1, a: 1}
-    - _SolidOutline: {r: 1, g: 1, b: 1, a: 1}
+    - _SolidOutline: {r: 1, g: 0.91591984, b: 0.3443396, a: 1}
   m_BuildTextureStacks: []
