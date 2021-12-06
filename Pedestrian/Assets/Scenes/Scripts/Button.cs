@@ -25,7 +25,8 @@ public class Button : MonoBehaviour
         {
             counter++;
             pressed = true;
-            sr.color = new Color(177f, 255f, 162f);
+            sr.color = new Color(177f, 255f, 130f);
+            
             if(counter == 1)
             {
                 transform.position = new Vector2(transform.position.x, transform.position.y - 0.2f);
