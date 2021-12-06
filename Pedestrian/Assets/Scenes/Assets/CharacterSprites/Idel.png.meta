@@ -1,43 +1,58 @@
 fileFormatVersion: 2
-guid: de5e0c7fd7a4cc94baf9daed2c9258ae
+guid: 187342fafeca18a44bd279b1d1271148
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2049649123801552016
-    second: pedestrian_jump_0
+      213: 3487060286450801030
+    second: Idel_0
   - first:
-      213: -7428309387637242490
-    second: pedestrian_jump_1
+      213: -8067802594310156837
+    second: Idel_1
   - first:
-      213: -1317157299563162982
-    second: pedestrian_jump_2
+      213: -2545224474746573365
+    second: Idel_2
   - first:
-      213: 3560970020166570122
-    second: pedestrian_jump_3
+      213: 1924775214494390148
+    second: Idel_3
   - first:
-      213: -8221034709857987799
-    second: pedestrian_jump_4
+      213: -7635022606425893528
+    second: Idel_4
   - first:
-      213: 6532255690693345614
-    second: pedestrian_jump_5
+      213: -2136813840442320366
+    second: Idel_5
   - first:
-      213: -4387824701124104892
-    second: pedestrian_jump_6
+      213: 8768625665354434932
+    second: Idel_6
   - first:
-      213: 7791572387569228034
-    second: pedestrian_jump_7
+      213: -9101768211779257013
+    second: Idel_7
   - first:
-      213: 4431327876057080436
-    second: pedestrian_jump_8
+      213: -7214368824342064711
+    second: Idel_8
   - first:
-      213: -1172053540839283232
-    second: pedestrian_jump_9
+      213: -1265836357734634840
+    second: Idel_9
   - first:
-      213: 6554580749048640890
-    second: pedestrian_jump_10
+      213: 7414587045421038450
+    second: Idel_10
   - first:
-      213: -2664155490290258967
-    second: pedestrian_jump_11
+      213: 8702923595457587258
+    second: Idel_11
+  - first:
+      213: 7058083821485325167
+    second: Idel_12
+  - first:
+      213: 6103464383892475616
+    second: Idel_13
+  - first:
+      213: -7770253766463634522
+    second: Idel_14
+  - first:
+      213: 6718776687130404402
+    second: Idel_15
+  - first:
+      213: -7422439354789872835
+    second: Idel_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,18 +139,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -148,7 +151,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -163,13 +166,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pedestrian_jump_0
+      name: Idel_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 539
-        width: 333
-        height: 485
+        y: 0
+        width: 267
+        height: 537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 094d162c401d17c10800000000000000
-      internalID: 2049649123801552016
+      spriteID: 6899544fad6846030800000000000000
+      internalID: 3487060286450801030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedestrian_jump_1
+      name: Idel_1
       rect:
         serializedVersion: 2
-        x: 333
-        y: 541
-        width: 242
-        height: 483
+        x: 267
+        y: 0
+        width: 267
+        height: 537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 685ce2408f759e890800000000000000
-      internalID: -7428309387637242490
+      spriteID: bdd0b281948690090800000000000000
+      internalID: -8067802594310156837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedestrian_jump_2
+      name: Idel_2
       rect:
         serializedVersion: 2
-        x: 574
-        y: 549
-        width: 227
-        height: 475
+        x: 534
+        y: 0
+        width: 267
+        height: 537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,167 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9299362a6488bde0800000000000000
-      internalID: -1317157299563162982
+      spriteID: bcda91d43db8dacd0800000000000000
+      internalID: -2545224474746573365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedestrian_jump_3
+      name: Idel_3
       rect:
         serializedVersion: 2
         x: 801
-        y: 550
-        width: 224
-        height: 474
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8018d3dd5b1b6130800000000000000
-      internalID: 3560970020166570122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedestrian_jump_4
-      rect:
-        serializedVersion: 2
-        x: 1025
-        y: 607
-        width: 226
-        height: 417
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92312c00d7409ed80800000000000000
-      internalID: -8221034709857987799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedestrian_jump_5
-      rect:
-        serializedVersion: 2
-        x: 1251
-        y: 602
-        width: 236
-        height: 422
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e410dc9f0fb37aa50800000000000000
-      internalID: 6532255690693345614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedestrian_jump_6
-      rect:
-        serializedVersion: 2
-        x: 1487
-        y: 577
-        width: 236
-        height: 446
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44d20d89ea05b13c0800000000000000
-      internalID: -4387824701124104892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedestrian_jump_7
-      rect:
-        serializedVersion: 2
-        x: 1722
-        y: 559
-        width: 313
-        height: 465
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2095ec21ec9312c60800000000000000
-      internalID: 7791572387569228034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedestrian_jump_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 19
-        width: 250
-        height: 521
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4722baf993d3f7d30800000000000000
-      internalID: 4431327876057080436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedestrian_jump_9
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 7
-        width: 252
-        height: 536
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e52980b3870cbfe0800000000000000
-      internalID: -1172053540839283232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pedestrian_jump_10
-      rect:
-        serializedVersion: 2
-        x: 501
         y: 0
-        width: 236
-        height: 544
+        width: 267
+        height: 537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7578aea67c86fa50800000000000000
-      internalID: 6554580749048640890
+      spriteID: 4871a641cdc26ba10800000000000000
+      internalID: 1924775214494390148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pedestrian_jump_11
+      name: Idel_4
       rect:
         serializedVersion: 2
-        x: 737
-        y: 3
-        width: 302
-        height: 542
+        x: 1068
+        y: 0
+        width: 267
+        height: 537
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,8 +264,260 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eba7d662b4070bd0800000000000000
-      internalID: -2664155490290258967
+      spriteID: 86558eb3463fa0690800000000000000
+      internalID: -7635022606425893528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_5
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a1c4922238852e0800000000000000
+      internalID: -2136813840442320366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_6
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47903df959a60b970800000000000000
+      internalID: 8768625665354434932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_7
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d74fcd80600b180800000000000000
+      internalID: -9101768211779257013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_8
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1507217c961eb90800000000000000
+      internalID: -7214368824342064711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_9
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aae3711a88de6ee0800000000000000
+      internalID: -1265836357734634840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_10
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bb88632a7e5e660800000000000000
+      internalID: 7414587045421038450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_11
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a386d9666eef6c870800000000000000
+      internalID: 8702923595457587258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_12
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b709e17d953f160800000000000000
+      internalID: 7058083821485325167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_13
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eec825058cd3b450800000000000000
+      internalID: 6103464383892475616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_14
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a34b433e538a2490800000000000000
+      internalID: -7770253766463634522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_15
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2366591acc3ed3d50800000000000000
+      internalID: 6718776687130404402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idel_16
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 0
+        width: 267
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bbeda8bb23ef890800000000000000
+      internalID: -7422439354789872835
       vertices: []
       indices: 
       edges: []

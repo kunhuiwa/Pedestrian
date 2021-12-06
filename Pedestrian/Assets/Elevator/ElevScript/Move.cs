@@ -75,7 +75,7 @@ public class Move : MonoBehaviour
         
         //Animation
         //move
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) && IsGrounded())
         {
             playerAnimation.SetBool("stand", false);
         }
@@ -86,9 +86,8 @@ public class Move : MonoBehaviour
         }
 
         //jump
-        if (Input.GetKey(KeyCode.Space))
+        if (!IsGrounded() && !Ladder.isClimbing && !Elevator.OnElevator)
         {
-
             playerAnimation.SetBool("onGround", false);
         }
         else
@@ -96,7 +95,23 @@ public class Move : MonoBehaviour
             //stand
             playerAnimation.SetBool("onGround", true);
         }
-
+        //climb
+        if (Ladder.isClimbing)
+        {
+            playerAnimation.SetBool("climb", true);
+            if (Mathf.Abs(Ladder.vertical) == 0f)
+            {
+                gameObject.GetComponent<Animator>().enabled = false;
+            }
+            else
+            {
+                gameObject.GetComponent<Animator>().enabled = true;
+            }
+        }
+        else if (!Ladder.isClimbing)
+        {
+            playerAnimation.SetBool("climb", false);
+        }
 
         //move death bar with player
         //DeathDetector.transform.position = new Vector2(transform.position.x, DeathDetector.transform.position.y);

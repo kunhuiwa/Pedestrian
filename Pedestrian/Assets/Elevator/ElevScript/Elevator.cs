@@ -6,6 +6,7 @@ public class Elevator : MonoBehaviour
 {
     public Transform player;
 
+    public static bool OnElevator = false;
     public Transform upperpos;
     public Transform downpos;
 
@@ -22,6 +23,7 @@ public class Elevator : MonoBehaviour
     {
         if(Vector2.Distance(player.position, transform.position)<1f)
         {
+            OnElevator = true;
             if (Input.GetKey(KeyCode.W) && !uplimit)
             {
                 transform.position = Vector2.MoveTowards(transform.position, upperpos.position, speed * Time.deltaTime * 2f);
@@ -47,6 +49,7 @@ public class Elevator : MonoBehaviour
         }
         else
         {
+            OnElevator = false;
             transform.position = Vector2.MoveTowards(transform.position, downpos.position, speed * Time.deltaTime);
         }
         
