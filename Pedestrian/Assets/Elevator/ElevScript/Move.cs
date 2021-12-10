@@ -99,6 +99,7 @@ public class Move : MonoBehaviour
         if (Ladder.isClimbing)
         {
             playerAnimation.SetBool("climb", true);
+
             if (Mathf.Abs(Ladder.vertical) == 0f)
             {
                 gameObject.GetComponent<Animator>().enabled = false;
@@ -112,22 +113,12 @@ public class Move : MonoBehaviour
         {
             playerAnimation.SetBool("climb", false);
         }
-
-        //move death bar with player
-        //DeathDetector.transform.position = new Vector2(transform.position.x, DeathDetector.transform.position.y);
-
     }
 
     void Flip()
     {
         faceRight = !faceRight;
         transform.Rotate(0, 180, 0);
-        /*
-        Vector2 characterScale = transform.localScale;
-        characterScale.x *= -1;
-
-        transform.localScale = characterScale;
-        */
     }
 
 
@@ -138,28 +129,4 @@ public class Move : MonoBehaviour
         //if not null, hit the ground
         return rc.collider != null;
     }
-
-    /*
-    //respawn
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Death")
-        {
-            //respawn player to the save point
-            transform.position = respawnPoint;
-
-        }
-        else if (collision.tag == "Respawn")
-        {
-            respawnPoint = transform.position;
-        }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Death"))
-        {
-            transform.position = respawnPoint;
-        }
-    }
-    */
 }
