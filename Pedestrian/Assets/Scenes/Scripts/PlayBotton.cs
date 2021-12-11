@@ -8,7 +8,7 @@ public class PlayBotton : MonoBehaviour
    public void PlayGame()
     {
         SceneManager.LoadScene("Level1");
-        SceneManager.LoadScene("Background_Paper");
+        //SceneManager.LoadScene("Background_Paper");
     }
 
    public void QuitButton()
