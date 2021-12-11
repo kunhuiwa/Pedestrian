@@ -10,4 +10,10 @@ public class PlayBotton : MonoBehaviour
         SceneManager.LoadScene("Level1");
         SceneManager.LoadScene("Background_Paper");
     }
+
+   public void QuitButton()
+    {
+        Application.Quit();
+        Debug.Log("Quit Game");
+    }
 }
