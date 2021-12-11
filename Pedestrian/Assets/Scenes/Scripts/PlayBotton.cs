@@ -5,9 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class PlayBotton : MonoBehaviour
 {
-   public void PlayGame()
+    public AudioSource playMusic;
+    private void Start()
     {
+        //playMusic = GetComponent<AudioSource>();
+        DontDestroyOnLoad(playMusic);
+    }
+
+    
+    public void PlayGame()
+    {
+        playMusic.Play();
+        
         SceneManager.LoadScene("Level1");
+        
         //SceneManager.LoadScene("Background_Paper");
     }
 

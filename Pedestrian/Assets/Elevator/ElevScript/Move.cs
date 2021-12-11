@@ -22,10 +22,13 @@ public class Move : MonoBehaviour
     //death bar
     //public GameObject DeathDetector;
 
+    public AudioSource footsteps;
+
     private void Awake()
     {
         rb = transform.GetComponent<Rigidbody2D>();
         bc = transform.GetComponent<BoxCollider2D>();
+        footsteps = GetComponent<AudioSource>();
     }
     
     private void Start()
@@ -128,5 +131,10 @@ public class Move : MonoBehaviour
         RaycastHit2D rc = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size, 0f, Vector2.down, 0.1f, lm);
         //if not null, hit the ground
         return rc.collider != null;
+    }
+
+    private void footstep()
+    {
+        footsteps.Play();
     }
 }
