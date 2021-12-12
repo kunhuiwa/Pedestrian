@@ -8,6 +8,9 @@ TagManager:
   - Ladder
   - Key
   - Portal
+  - MainKey
+  - LockDoor
+  - MainLockD
   layers:
   - Default
   - TransparentFX

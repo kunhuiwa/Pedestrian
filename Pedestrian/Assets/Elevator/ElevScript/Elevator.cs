@@ -21,7 +21,7 @@ public class Elevator : MonoBehaviour
 
     void ControlElevator()
     {
-        if(Vector2.Distance(player.position, transform.position)<1f)
+        if(Vector2.Distance(player.position, transform.position)<1.2f)
         {
             OnElevator = true;
             if (Input.GetKey(KeyCode.W) && !uplimit)

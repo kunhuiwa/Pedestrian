@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DoorOpen : MonoBehaviour
 {
-    public static bool DoorisOpen = false;
 
     public BoxCollider2D boxCollider;
     public GameObject OpenDoor;
@@ -26,13 +25,10 @@ public class DoorOpen : MonoBehaviour
     {
         if (collision.CompareTag("Key"))
         {
-            DoorisOpen = true;
 
             Destroy(gameObject);
             ClosedDoor.SetActive(false);
             OpenDoor.SetActive(true);
-
-            //Debug.Log("The door is opened");
         }
     }
 }
