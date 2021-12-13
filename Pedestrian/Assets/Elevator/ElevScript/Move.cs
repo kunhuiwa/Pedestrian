@@ -17,11 +17,6 @@ public class Move : MonoBehaviour
     //flip
     private bool faceRight = true;
 
-    //respawn
-    //public Vector3 respawnPoint;
-    //death bar
-    //public GameObject DeathDetector;
-
     public AudioSource footsteps;
 
     private void Awake()
@@ -34,7 +29,6 @@ public class Move : MonoBehaviour
     private void Start()
     {
         playerAnimation = GetComponent<Animator>();
-        //respawnPoint = transform.position;
     }
 
     void Update()
