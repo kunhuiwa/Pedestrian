@@ -163,7 +163,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2.7
+  m_GravityScale: 2.8
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -184,6 +184,7 @@ MonoBehaviour:
   grabDetect: {fileID: 1147351750407415124}
   boxHolder: {fileID: 1147351750828474379}
   rayDist: 2
+  key: {fileID: 0}
 --- !u!114 &1147351750422625481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +215,10 @@ MonoBehaviour:
     m_Bits: 8
   moves: 7
   jumpS: 14
+  jump: {fileID: 0}
+  land: {fileID: 0}
+  climb: {fileID: 0}
+  audiosource: {fileID: 0}
 --- !u!114 &8017318649877884391
 MonoBehaviour:
   m_ObjectHideFlags: 0

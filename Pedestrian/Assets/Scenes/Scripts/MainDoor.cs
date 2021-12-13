@@ -9,6 +9,15 @@ public class MainDoor : MonoBehaviour
     public GameObject Open;
     public GameObject Close;
 
+    public AudioClip OpenD;
+    public AudioClip Locked;
+    private AudioSource MainD;
+
+    private void Start()
+    {
+        MainD = GetComponent<AudioSource>();
+    }
+
     private void Awake()
     {
         bc = GetComponent<BoxCollider2D>();
@@ -23,6 +32,12 @@ public class MainDoor : MonoBehaviour
             Destroy(gameObject);
             Close.SetActive(false);
             Open.SetActive(true);
+
+            MainD.PlayOneShot(OpenD, 1.5f);
+        }
+        else
+        {
+            MainD.PlayOneShot(Locked, 1f);
         }
     }
 }

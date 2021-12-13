@@ -9,6 +9,14 @@ public class GrabController : MonoBehaviour
     public float rayDist;
     bool KeyGrab = false;
 
+    public AudioClip key;
+    private AudioSource audioS;
+
+    private void Start()
+    {
+        audioS = GetComponent<AudioSource>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -21,13 +29,15 @@ public class GrabController : MonoBehaviour
               //press E to grab Key
               if (Input.GetKeyDown(KeyCode.E))
               {
-                  grabCheck.collider.gameObject.transform.parent = boxHolder;
-                  grabCheck.collider.gameObject.transform.position = boxHolder.position;
-                  grabCheck.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
-                  KeyGrab = true;
-              }
-              //else
-              if (KeyGrab)
+                    grabCheck.collider.gameObject.transform.parent = boxHolder;
+                    grabCheck.collider.gameObject.transform.position = boxHolder.position;
+                    grabCheck.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+                    KeyGrab = true;
+
+                    audioS.PlayOneShot(key, 1f);
+               }
+                //else
+                if (KeyGrab)
               {
                   if (Input.GetKeyDown(KeyCode.X))
                   {

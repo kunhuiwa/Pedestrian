@@ -14,14 +14,49 @@ public class Elevator : MonoBehaviour
     bool downlimit = true;
     public float speed;
 
+    public AudioSource elevatorMove;
+
+    private void Start()
+    {
+        elevatorMove = GetComponent<AudioSource>();
+    }
     void Update()
     {
         ControlElevator();
+
+        //audio
+        if(OnElevator)
+        {
+            if(Input.GetKey(KeyCode.W) && !uplimit)
+            {
+                if (!elevatorMove.isPlaying)
+                {
+                    elevatorMove.Play();
+                }
+            }
+            if (Input.GetKey(KeyCode.S) && !downlimit)
+            {
+                if (!elevatorMove.isPlaying)
+                {
+                    elevatorMove.Play();
+                }
+            }
+
+            if (uplimit || downlimit)
+            {
+                elevatorMove.Stop();
+            }
+
+        }
+        else if(uplimit || downlimit)
+        {
+            elevatorMove.Stop();
+        }
     }
 
     void ControlElevator()
     {
-        if(Vector2.Distance(player.position, transform.position)<1.2f)
+        if(Vector2.Distance(player.position, transform.position)<1.3f)
         {
             OnElevator = true;
             if (Input.GetKey(KeyCode.W) && !uplimit)
@@ -53,7 +88,5 @@ public class Elevator : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, downpos.position, speed * Time.deltaTime);
         }
         
-
-
-        }
+    }
 }

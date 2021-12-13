@@ -9,6 +9,13 @@ public class DoorOpen : MonoBehaviour
     public GameObject OpenDoor;
     public GameObject ClosedDoor;
 
+    public AudioClip Open;
+    public AudioClip Locked;
+    private AudioSource audioSource;
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
@@ -17,18 +24,21 @@ public class DoorOpen : MonoBehaviour
         GameObject Key = GameObject.FindWithTag("Key");
         OpenDoor.SetActive(false);
         ClosedDoor.SetActive(true);
-
-        //Debug.Log("The door is closed");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Key"))
         {
-
-            Destroy(gameObject);
             ClosedDoor.SetActive(false);
             OpenDoor.SetActive(true);
+            Destroy(gameObject);
+
+            audioSource.PlayOneShot(Open, 1.5f);
+        }
+        else
+        {
+            audioSource.PlayOneShot(Locked, 1f);
         }
     }
 }

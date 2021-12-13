@@ -17,18 +17,21 @@ public class Move : MonoBehaviour
     //flip
     private bool faceRight = true;
 
-    public AudioSource footsteps;
+    public AudioClip jump;
+    public AudioClip land;
+    public AudioClip climb;
+    public AudioSource audiosource;
 
     private void Awake()
     {
         rb = transform.GetComponent<Rigidbody2D>();
         bc = transform.GetComponent<BoxCollider2D>();
-        footsteps = GetComponent<AudioSource>();
     }
     
     private void Start()
     {
         playerAnimation = GetComponent<Animator>();
+        audiosource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -38,23 +41,11 @@ public class Move : MonoBehaviour
         {
             //right
             transform.Translate(Vector2.right * Time.deltaTime * moves);
-            /*
-            if (!footstep.isPlaying && IsGrounded())
-            {
-                footstep.Play();
-            }*/
         }
-        /*
-        else
-        {
-            footstep.Stop();
-        }*/
-
         //jump
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             rb.velocity = Vector2.up * jumpS;
-            //footstep.Stop();
             //AudioManager.PlaySound("jump");
         }
 
@@ -129,6 +120,19 @@ public class Move : MonoBehaviour
 
     private void footstep()
     {
-        footsteps.Play();
+        audiosource.Play();
+    }
+
+    private void jumpSound()
+    {
+        audiosource.PlayOneShot(jump, .6f);
+    }
+    private void landS()
+    {
+        audiosource.PlayOneShot(land, 1f);
+    }
+    private void climbS()
+    {
+        audiosource.PlayOneShot(climb, 0.5f);
     }
 }

@@ -11,10 +11,12 @@ public class Button : MonoBehaviour
     public GameObject ButtonClose;
 
     SpriteRenderer sr;
+    private AudioSource button;
 
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        button = GetComponent<AudioSource>();
 
         ButtonOpen.SetActive(false);
         ButtonClose.SetActive(true);
@@ -30,6 +32,7 @@ public class Button : MonoBehaviour
             if(counter == 1)
             {
                 transform.position = new Vector2(transform.position.x, transform.position.y - 0.2f);
+                button.Play();
             }
 
             ButtonClose.SetActive(false);
