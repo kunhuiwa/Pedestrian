@@ -18,7 +18,7 @@ public class OneWayPlatform : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.S))
         {
-            waitTime = 0.0001f;
+            waitTime = 0.00001f;
         }
         if (Input.GetKey(KeyCode.S))
         {

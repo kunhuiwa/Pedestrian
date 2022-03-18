@@ -88,7 +88,7 @@ public class Move : MonoBehaviour
         {
             playerAnimation.SetBool("climb", true);
 
-            if (Mathf.Abs(Ladder.vertical) == 0f)
+            if (Mathf.Abs(Ladder.vertical) == 0f && IsGrounded())
             {
                 gameObject.GetComponent<Animator>().enabled = false;
             }

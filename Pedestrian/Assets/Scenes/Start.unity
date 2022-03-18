@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The Pedestrian
+  m_text: 'Pedestrian
 
 '
   m_isRightToLeft: 0

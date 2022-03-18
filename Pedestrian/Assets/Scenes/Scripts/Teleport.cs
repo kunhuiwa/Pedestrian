@@ -6,6 +6,7 @@ public class Teleport : MonoBehaviour
 {
     private GameObject currentTeleporter;
     private bool wait = true;
+    private bool moved = false;
 
     void Update()
     {
@@ -19,16 +20,18 @@ public class Teleport : MonoBehaviour
             StartCoroutine(Wait(2));
         }
     }
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Portal"))
+        if(collision.CompareTag("Portal") && !moved)
         {
             currentTeleporter = collision.gameObject;
+            moved = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        moved = false;
         if (collision.CompareTag("Portal"))
         {
             if(collision.gameObject == currentTeleporter)
@@ -37,7 +40,6 @@ public class Teleport : MonoBehaviour
             }
         }
     }
-
     private IEnumerator Wait(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);

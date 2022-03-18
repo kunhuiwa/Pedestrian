@@ -6,19 +6,29 @@ public class Ladder : MonoBehaviour
 {
     public static float vertical;
     private float speed = 8f;
-    private bool isLadder;
-    public static bool isClimbing;
+    private bool isLadder = false;
+    public static bool isClimbing = false;
 
     [SerializeField] private Rigidbody2D rbLadder;
+
+    private Animator playerAnimation;
+    private void Start()
+    {
+        playerAnimation = GetComponent<Animator>();
+    }
 
     private void Update()
     {
         //return 1/-1 depending on WS
         vertical = Input.GetAxis("Vertical");
 
-        if(isLadder && Mathf.Abs(vertical)>0f)
+
+        if (isLadder)
         {
-            isClimbing = true;
+            if (Mathf.Abs(vertical) > 0f)
+            {
+                isClimbing = true;
+            }
         }
     }
 
@@ -41,15 +51,14 @@ public class Ladder : MonoBehaviour
         {
             isLadder = true;
         }
-
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Ladder"))
         {
-            isLadder = false;
             isClimbing = false;
+            isLadder = false;
         }
     }
 }
